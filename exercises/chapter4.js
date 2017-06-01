@@ -1,3 +1,4 @@
+require('../helperfunctionspart1')
 let _ = require('ramda')
 
 
@@ -19,7 +20,7 @@ let sentences = _.map(words)
 // Refactor to remove all arguments by partially applying the functions.
 
 
-let filterQs = _.filter(_.match(/q/i))
+let filterQs = _.filter(match(/q/i))
 
 
 // Exercise 3

@@ -1,0 +1,24 @@
+{
+  "name": "functionalprogrammingexercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chapter4.js",
+  "scripts": {
+    "test": "mocha ./chapter4test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizzkats/FunctionalProgrammingExercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizzkats/FunctionalProgrammingExercises/issues"
+  },
+  "homepage": "https://github.com/lizzkats/FunctionalProgrammingExercises#readme",
+  "dependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
+    "ramda": "^0.24.0"
+  }
+}

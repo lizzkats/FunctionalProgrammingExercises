@@ -2,9 +2,9 @@
   "name": "functionalprogrammingexercises",
   "version": "1.0.0",
   "description": "",
-  "main": "chapter4.js",
+  "main": "./exercises",
   "scripts": {
-    "test": "mocha ./chapter4test.js"
+    "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lizzkats/FunctionalProgrammingExercises#readme",
   "dependencies": {
+    "accounting": "^0.4.1",
     "chai": "^4.0.1",
     "mocha": "^3.4.2",
     "ramda": "^0.24.0"

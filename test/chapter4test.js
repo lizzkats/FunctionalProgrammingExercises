@@ -13,7 +13,7 @@ describe("Curry Exercises", function(){
   });
 
   it('Exercise 2', function(){
-    assert.equal(E.filterQs(['quick', 'camels', 'quarry', 'over', 'quails']), ['quick', 'quarry', 'quails']);
+    assert.deepEqual(E.filterQs(['quick', 'camels', 'quarry', 'over', 'quails']), ['quick', 'quarry', 'quails']);
   });
 
   it('Exercise 3', function(){
